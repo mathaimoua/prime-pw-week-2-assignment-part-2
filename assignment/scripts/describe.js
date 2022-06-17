@@ -45,12 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// Declare a variable called secret but don't store anything into it yet.
-// Create a new variable with 123 in it.
+// We declare a variable called secret but don't store anything into it yet.
+// We create a new variable with 123 in it.
 // We create a conditional statement to check if our code variable is 123
 // If our variable is 123, put the string "super" into our variable we declared earlier
 // Then after "super" goes into code, multiply code by 2 and store it back into code.
-// Perform another conditional check to see if code is greater than 250, if it is,
+// We perform another conditional check to see if code is greater than 250, if it is,
 // replace whatever is in secret with "duper".
 // At the end, display what secret is, in this case, "super".
 
@@ -74,14 +74,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// Declare 3 variables, 1 boolean isStudent, 1 number age, and 1 number zip.
-// 4 conditional checks. 
+// We declare 3 variables, 1 boolean isStudent, 1 number age, and 1 number zip.
+// We have a conditional that checks for 4 cases. 
 // 1st check. If isStudent is true and zip is greater than 80000, display
 // "You're a student on the West Coast!"
 // 2nd check. If isStudent is false or age is less than 30, display
 // "What are your hobbies?"
 // 3rd check. If isStudent is true, display "Welcome to Prime!".
-// 4th check. If none of the checks above are true, display 
+// 4th check (anything else). If none of the checks above are true, display 
 // "How about the weather?""
 
 //CODE
@@ -121,15 +121,12 @@ if (isStudent === true && zip > 80000 ) {
 //CODE
 /*
 let number = 1;
-
 // FIX - number-- decrements number, but the instructions ask to increment. 
 // Should be number++.
-number++; 
-
+number--; 
 if (number >= 2) {
   console.log('yes');
 }
-
 */
 
 
@@ -139,13 +136,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'blue';
-let colorTwo = 'red';
+// FIX - swap the strings of colorOne and colorTwo
+let colorOne = 'red';
+let colorTwo = 'blue';
 let mix = true;
-
 if (mix === true) {
+  // FIX - add "colorTwo = "purple"; 
   colorOne = 'purple';
-  colorTwo = 'purple';
 }
 */
 
@@ -156,8 +153,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
-if (temp > 39 && time >= 4) {
+// FIX - change "||"" to "&&""
+if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -169,11 +166,10 @@ if (temp > 39 && time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
 if(minAge <= age) {
-  console.log('enter');
-} else {
+  // FIX - swap the console.logs, the first console.log should be enter, the second one "no entry".
   console.log('no entry');
+} else {
+  console.log('enter');
 }
 */
-
