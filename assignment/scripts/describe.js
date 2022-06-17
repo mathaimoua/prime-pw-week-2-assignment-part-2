@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a new string variable, storing "Dane" in it.
+// We make a conditional statement to check if our string varible is "Mary"
+// If the name we stored into name IS Mary, display "Hi, Mary!"
+// If the name isn't Mary, display "How do you do?" instead.
 
 //CODE
 /*
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare a variable called secret but don't store anything into it yet.
+// Create a new variable with 123 in it.
+// We create a conditional statement to check if our code variable is 123
+// If our variable is 123, put the string "super" into our variable we declared earlier
+// Then after "super" goes into code, multiply code by 2 and store it back into code.
+// Perform another conditional check to see if code is greater than 250, if it is,
+// replace whatever is in secret with "duper".
+// At the end, display what secret is, in this case, "super".
 
 //CODE
 /*
@@ -70,10 +74,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare 3 variables, 1 boolean isStudent, 1 number age, and 1 number zip.
+// 4 conditional checks. 
+// 1st check. If isStudent is true and zip is greater than 80000, display
+// "You're a student on the West Coast!"
+// 2nd check. If isStudent is false or age is less than 30, display
+// "What are your hobbies?"
+// 3rd check. If isStudent is true, display "Welcome to Prime!".
+// 4th check. If none of the checks above are true, display 
+// "How about the weather?""
 
 //CODE
 /*
@@ -115,7 +124,7 @@ let number = 1;
 
 // FIX - number-- decrements number, but the instructions ask to increment. 
 // Should be number++.
-number--; 
+number++; 
 
 if (number >= 2) {
   console.log('yes');
@@ -130,12 +139,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -147,7 +157,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -161,9 +171,9 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
-  console.log('no entry');
-} else {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
 
